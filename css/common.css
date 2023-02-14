@@ -1,0 +1,312 @@
+/* 공통 클래스 */
+        .blind{position:absolute;clip:rect(0 0 0 0);width:1px;height:1px;margin:-1px;overflow:hidden}
+        .screen_out{overflow:hidden;position:absolute;width:0;height:0;line-height:0;text-indent: -9999px}
+        .hide{position:absolute;left:-9999px;top:-9999px}
+
+
+        .wrap_1{
+            width: 1200px;
+            margin: auto;
+            position: relative;
+        }
+
+        /*logo*/
+        .logo{
+            width:287px;
+            height:41px;
+            margin: 20px 20px;
+        }
+        .logo a{
+            display:block;
+            width:287px;height:41px;
+            background:url(../images/logo.png) no-repeat;
+            text-indent:-9999px;
+        }
+
+        /*naver menu*/
+        .naver_menu{
+            position: absolute;
+            right:0;
+            top:0;
+            margin-right: 20px;
+        }
+
+        .login{
+            width: 50px;
+            height: 37px;
+            float: left;
+            margin-right: 10px;
+            
+        }
+
+        .login a{
+            display: block;
+            width: 50px;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            border: 1px solid #000;
+            border-radius: 5px;
+        }
+
+        .logout{
+            width: 60px;
+            height: 37px;
+            float: left;
+            margin-right: 10px;
+            
+        }
+
+        .logout a{
+            display: block;
+            width: 60px;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            border: 1px solid #000;
+            border-radius: 5px;
+        }
+
+        .user_name{
+            float: left;
+            display: block;
+            height: 30px;
+            line-height: 30px;
+            margin-right: 10px;
+        }
+
+        .service{
+            float: left;
+        }
+
+
+        .service a{
+            display:block;
+            width:36px;height:37px;
+            background:url(../images/service.png) no-repeat;
+            text-indent:-9999px;
+        }
+
+        .wrap_2{
+            width: 1200px;
+            margin: auto;
+            position: relative;
+            margin-bottom: 10px;
+        }
+
+        /*gnb*/
+        .menu_main{
+            height: 40px;
+        }
+
+        .menu_novel a{
+            display:block;
+            width:97px;height:26px;
+            background:url(../images/menu_novel.png) no-repeat;
+            text-indent:-9999px;
+            float: left;
+            margin: 0 20px;
+        }
+
+        .menu_comics a{
+            display:block;
+            width:51px;height:25px;
+            background:url(../images/menu_comics.png) no-repeat;
+            text-indent:-9999px;
+            float: left;
+            margin: 0 20px;
+        }
+
+        .menu_ebook a{
+            display:block;
+            width:38px;height:26px;
+            background:url(../images/menu_ebook.png) no-repeat;
+            text-indent:-9999px;
+            float: left;
+            margin: 0 20px;
+        }
+
+         /*user menu*/
+         .side_menu{
+            height: 40px;
+            position: absolute;
+            right: 0;
+            top:0;
+        }
+
+        .user_menu{
+            height: 40px;
+            float: left;
+        }
+
+        
+        .search{
+            width:260px;
+            height:40px;
+            background:url(../images/search_box.jpg) no-repeat;
+            text-indent:-9999px;
+            padding: 0 10px;
+            float: left;
+        }
+
+        .search div{
+            width:15px;height:15px;
+            background:url(../images/search.png) no-repeat;
+        }
+
+
+        .library{
+            float: left;
+            margin: 0 10px;
+        }
+
+        .cart{
+            float: left;
+            margin: 0 10px;
+        }
+
+        .mypage{
+            float: left;
+            margin: 0 10px;
+        }
+
+
+        .library a{
+            display:block;
+            width:30px;height:27px;
+            background:url(../images/library.png) no-repeat;
+            text-indent:-9999px;
+        }
+
+        .cart a{
+            display:block;
+            width:32px;height:29px;
+            background:url(../images/cart.png) no-repeat;
+            text-indent:-9999px;
+        }
+
+        .mypage a{
+            display:block;
+            width:28px;height:28px;
+            background:url(../images/mypage.png) no-repeat;
+            text-indent:-9999px;
+        }
+
+        /*sub menu*/
+        .menu_sub_wrap{
+            background:url(../images/menu_sub_wrap_02.jpg) repeat-x;
+        }
+
+        .menu_sub{
+            width: 1200px;
+            height: 26px;
+            margin: auto
+        }
+
+        .menu_romance a{
+            display:block;
+            width:75px;height:26px;
+            background:url(../images/menu_romance.png) no-repeat;
+            text-indent:-9999px;
+            float: left;
+            margin: 0 20px;
+        }
+
+        .menu_rf a{
+            display:block;
+            width:49px;height:26px;
+            background:url(../images/menu_rf.png) no-repeat;
+            text-indent:-9999px;
+            float: left;
+            margin: 0 20px;
+        }
+
+        .menu_fantasy a{
+            display:block;
+            width:70px;height:26px;
+            background:url(../images/menu_fantasy.png) no-repeat;
+            text-indent:-9999px;
+            float: left;
+            margin: 0 20px;
+        }
+
+        .menu_mf a{
+            display:block;
+            width:49px;height:26px;
+            background:url(../images/menu_mf.png) no-repeat;
+            text-indent:-9999px;
+            float: left;
+            margin: 0 20px;
+        }
+
+        .menu_oriental a{
+            display:block;
+            width:49px;height:26px;
+            background:url(../images/menu_oriental.png) no-repeat;
+            text-indent:-9999px;
+            float: left;
+            margin: 0 20px;
+        }
+
+        .menu_se a{
+            display:block;
+            width:150px;height:26px;
+            background:url(../images/menu_se.png) no-repeat;
+            text-indent:-9999px;
+            float: left;
+            margin: 0 20px;
+        }
+
+
+        
+        /*footer*/
+        footer{
+            background-color: #eee;
+            font-size: small;
+            padding: 50px 0;
+        }
+
+        .terms_wrap{
+            width: 1200px;
+            height: 100px;
+            margin: auto;
+        }
+
+        .terms_wt{
+            width: 650px;
+            float: left;
+        }
+
+        .terms_naver{
+            width: 500px;
+            float: left;
+        }
+
+        .terms_wt ul{
+            height: 50px;
+        }
+
+        .terms_naver ul{
+            height: 50px;
+        }
+
+
+        footer li{
+            float:left;
+        }
+        
+
+        .terms::after{
+            content:"|";
+            margin:0 10px
+        }
+
+        .info_wrap{
+            width: 1200px;
+            margin: auto;
+        }
+
+        .info_wrap ul{
+            height: 40px;
+        }
+        

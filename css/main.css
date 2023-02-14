@@ -1,0 +1,553 @@
+header{
+    margin-bottom: 50px;
+}
+        /*cover*/
+        .cover{
+            width:180px;height:260px;
+            background:url(../images/cover.jpg) no-repeat;
+            text-indent:-9999px;
+            margin-bottom: 10px;
+        }
+
+        .freepass .cover, .mym .cover, .timedeal .cover, .new .cover, .serial .cover{
+            margin-right: 24px;
+        }
+        
+
+        /*main banner*/
+        .main_banner{
+            height: 293px;
+            
+            background-image: url(../images/banner_bg.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100% 250px;
+            background-origin: content-box;
+            position: relative;
+            margin-bottom: 25px;
+        }
+
+        .main_banner_wrap{
+            width: 1200px;
+            height:293px;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .main_banner_wrap ul{
+            width: 2400px;
+            height:293px;
+            position: relative;
+        }
+
+        .main_banner_wrap li a{
+            display:block;
+            width:200px;height:293px;
+            text-indent:-9999px;
+            margin-right: 50px;
+            float: left;
+        }
+
+        .main_banner .prev{
+            top: 125px;
+            left: 10px;
+        }
+
+        .main_banner .next{
+            top: 125px;
+            right:10px;
+        }
+
+        /*common*/
+        .more{
+            float: right;
+        }
+
+        .novel_info{
+            margin-left: 10px;
+        }
+
+        .novel_info p{margin-top:5px;}
+
+
+        /*next button*/
+        .next{
+            display: block;
+            width: 47px; height: 53px;
+            background: url(../images/next.png) no-repeat;
+            text-indent:-9999px;
+            position: absolute;
+            
+        }
+
+        .prev{
+            display: none;
+            width: 47px; height: 53px;
+            background: url(../images/next.png) no-repeat;
+            text-indent:-9999px;
+            position: absolute;
+            transform: scaleX(-1);
+            
+        }
+
+        /*freepass*/
+       
+        .freepass{
+            width: 1200px;
+            height: 400px;
+            margin: auto;
+            margin-bottom: 25px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .freepass .title{
+            height: 25px;
+            margin-bottom: 10px;
+        }  
+
+        .freepass h2{
+            float: left;
+        }
+
+        .freepass ul{
+            width: 2400px;
+            height: 360px;
+            position: relative;
+        }
+
+        .freepass li{
+            float: left;
+        }
+
+        .freepass .prev{
+            top: 150px;
+            left: 10px;
+        }
+
+        .freepass .next{
+            top:150px;
+            right: -10px;}
+
+         /*mym*/
+       
+         .mym{
+            width: 1200px;
+            height: 400px;
+            margin: auto;
+            margin-bottom: 25px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .mym .title{
+            height: 25px;
+            margin-bottom: 10px;
+        }  
+
+        .mym h2{
+            float: left;
+        }
+
+        .mym ul{
+            width: 2400px;
+            height: 360px;
+            position: relative;
+        }
+
+        .mym li{
+            float: left;
+        }
+
+        .mym .prev{
+            top: 150px;
+            left: 10px;
+        }
+
+        .mym .next{
+            top: 150px;
+            right: -10px;
+        }
+
+         /*timedeal*/
+       
+         .timedeal{
+            width: 1200px;
+            height: 400px;
+            margin: auto;
+            margin-bottom: 25px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .timedeal .title{
+            height: 25px;
+            margin-bottom: 10px;
+        }  
+
+        .timedeal h2{
+            float: left;
+        }
+
+        .timedeal ul{
+            width: 2400px;
+            height: 360px;
+            position: relative;
+        }
+
+        .timedeal li{
+            float: left;
+        }
+
+        .timedeal.prev{
+            top: 150px;
+            left: 10px;
+        }
+        .timedeal .next{
+            top: 150px;
+            right: -10px;
+        }
+
+        /*ranking*/
+        .ranking .cover{
+            width: 105px;
+            height: 150px;
+            background-image: url(../images/cover_ranking.jpg);
+            
+        }
+
+        .ranking .ranking_1 .cover{
+            width: 200px;
+            height: 286px;
+            background-image: url(../images/cover_ranking_1.jpg);
+            margin:auto;
+        }
+
+        .ranking{
+            width:1200px;
+            height:1322px;
+            margin:auto;
+            margin-bottom: 25px;
+        }
+        .now{
+            width: 320px;
+            height: 1322px;
+            float: left;
+            margin-right: 120px;
+            background-image: url(../images/ranking_bg.jpg);
+            background-repeat: no-repeat;
+            background-position: bottom;
+        }
+
+        .now .title{
+            height: 25px;
+            margin-bottom: 20px;
+        }
+
+        .now h2{
+            float: left;
+            }
+
+        .now ul{
+            
+        }
+        
+        .ranking_1{
+            height: 370px;
+        }
+        
+        .ranking_2, .ranking_3, .ranking_4, .ranking_5, .ranking_6, .ranking_7{
+            height: 150px;
+        }
+        
+        .ranking_1 .novel_info{
+            margin-left: 0px;
+            margin-top: -60px;
+            width: 320px;
+            height: 140px;
+            background-color: rgba(0, 0, 0, 0.5);
+            
+        }
+
+        .ranking_2 .cover{
+            float: left;
+        }
+
+        .ranking_2 .novel_info{
+            float: left;
+        }
+
+        .ranking_3 .cover{
+            float: left;
+            margin-left: -105px;
+        }
+
+        .ranking_3 .novel_info{
+            float: left;
+        }
+
+        .ranking_4 .cover{
+            float: left;
+        }
+
+        .ranking_4 .novel_info{
+            float: left;
+        }
+
+        .ranking_5 .cover{
+            float: left;
+            margin-left: -105px;
+        }
+
+        .ranking_5 .novel_info{
+            float: left;
+        }
+
+        .ranking_6 .cover{
+            float: left;
+        }
+
+        .ranking_6 .novel_info{
+            float: left;
+        }
+
+        .ranking_7 .cover{
+            float: left;
+            margin-left: -105px;
+        }
+
+        .ranking_7 .novel_info{
+            float: left;
+        }
+
+        .daily{
+            width: 320px;
+            float: left;
+            margin-right: 120px;
+            background-image: url(../images/ranking_bg.jpg);
+            background-repeat: no-repeat;
+            background-position: bottom;
+        }
+
+        .monthly{
+            width: 320px;
+            float: left;
+            background-image: url(../images/ranking_bg.jpg);
+            background-repeat: no-repeat;
+            background-position: bottom;
+        }
+
+         /*new*/
+       
+         .new{
+            width: 1200px;
+            height: 400px;
+            margin: auto;
+            margin-bottom: 25px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .new .title{
+            height: 25px;
+            margin-bottom: 10px;
+        }  
+
+        .new h2{
+            float: left;
+        }
+
+        .new ul{
+            width: 2400px;
+            height: 360px;
+            position: relative;
+        }
+
+        .new li{
+            float: left;
+        }
+
+        .new .prev{
+            top: 150px;
+            left: 10px;
+        }
+        .new .next{
+            top: 150px;
+            right: -10px;
+        }
+
+         /*serial*/
+       
+        .serial{
+            width: 1200px;
+            height: 400px;
+            margin: auto;
+            margin-bottom: 25px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .serial .title{
+            height: 25px;
+            margin-bottom: 10px;
+        }  
+
+        .serial h2{
+            float: left;
+        }
+
+        .serial ul{
+            width: 2400px;
+            height: 360px;
+            position: relative;
+        }
+
+        .serial li{
+            float: left;
+        }
+
+        .serial .prev{
+            top: 150px;
+            left: 10px;
+        }
+        .serial .next{
+            top: 150px;
+            right: -10px;
+        }
+
+        
+
+        /*info*/
+        .info{
+            width: 1200px;
+            height: 100px;
+            margin: auto;
+            margin-bottom: 25px;
+        }
+
+        .info_1{
+            display:block;
+            width:580px;height:100px;
+            background:url(../images/info_1.jpg) no-repeat;
+            text-indent:-9999px;
+            float: left;
+        }
+
+        .info_2{
+            display:block;
+            width:580px;height:100px;
+            background:url(../images/info_2.jpg) no-repeat;
+            text-indent:-9999px;
+            float: right;
+        }
+
+        /*app*/
+        .app{
+            width: 1200px;
+            height: 90px;
+            margin: auto;
+            margin-bottom: 25px;
+        }
+
+        .app h2{
+            float: left;
+            height: 25px;
+            margin:32px 50px 32px 0;
+            font-size: xx-large;
+        }
+        
+
+        .app_1{
+            width: 280px;
+            height: 85px;
+            background: url(../images/app_1.jpg) no-repeat center;
+            text-indent:-9999px;
+            float: left;
+            margin-right: 50px;
+        }
+
+        .app_2{
+            width: 280px;
+            height: 85px;
+            background: url(../images/app_2.jpg) no-repeat center;
+            text-indent:-9999px;
+            float: left;
+            margin-right: 50x;
+        }
+
+
+        .app_3{
+            width: 280px;
+            height: 85px;
+            background: url(../images/app_3.jpg) no-repeat center;
+            text-indent:-9999px;
+            float: left;
+        }
+
+/* cover 임시 */
+
+.now .ranking_1 .cover{
+    background: url(../images/cover_rt1.png);
+}
+.now .ranking_2 .cover{
+    background: url(../images/cover_rt2.png);
+}
+.now .ranking_3 .cover{
+    background: url(../images/cover_rt3.png);
+}
+.now .ranking_4 .cover{
+    background: url(../images/cover_rt4.png);
+}
+.now .ranking_5 .cover{
+    background: url(../images/cover_rt5.png);
+}
+.now .ranking_6 .cover{
+    background: url(../images/cover_rt6.png);
+}
+.now .ranking_7 .cover{
+    background: url(../images/cover_rt7.png);
+}
+
+.daily .ranking_1 .cover{
+    background: url(../images/cover_rd1.png);
+}
+.daily .ranking_2 .cover{
+    background: url(../images/cover_rd2.png);
+}
+.daily .ranking_3 .cover{
+    background: url(../images/cover_rd3.png);
+}
+.daily .ranking_4 .cover{
+    background: url(../images/cover_rd4.png);
+}
+.daily .ranking_5 .cover{
+    background: url(../images/cover_rd5.png);
+}
+.daily .ranking_6 .cover{
+    background: url(../images/cover_rd6.png);
+}
+.daily .ranking_7 .cover{
+    background: url(../images/cover_rd7.png);
+}
+
+.monthly .ranking_1 .cover{
+    background: url(../images/cover_rm1.png);
+}
+.monthly .ranking_2 .cover{
+    background: url(../images/cover_rm2.png);
+}
+.monthly .ranking_3 .cover{
+    background: url(../images/cover_rm3.png);
+}
+.monthly .ranking_4 .cover{
+    background: url(../images/cover_rm4.png);
+}
+.monthly .ranking_5 .cover{
+    background: url(../images/cover_rm5.png);
+}
+.monthly .ranking_6 .cover{
+    background: url(../images/cover_rm6.png);
+}
+.monthly .ranking_7 .cover{
+    background: url(../images/cover_rm7.png);
+}

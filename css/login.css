@@ -1,0 +1,170 @@
+header{
+    margin-bottom: 50px;
+}
+
+/*tabs*/
+
+
+.tabs{
+    width: 600px;
+    height: 80px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.tabs a{
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 80px;
+    font-size: 20px;
+    float: left;
+}
+
+.tab_id{
+    width: 200px;
+    height: 80px;
+    border: 3px solid lightgray;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #00e064;
+}
+
+.tab_num{
+    width: 200px;
+    height: 80px;
+    border-top: 3px solid lightgray;
+    border-bottom: 3px solid lightgray;
+}
+
+.tab_qr{
+    width: 200px;
+    height: 80px;
+    border: 3px solid lightgray;
+    border-radius: 0px 10px 10px 0px;
+}
+
+/* login */
+.login_data{
+    width: 600px;
+    margin: auto;
+}
+
+
+
+.login_wrap{
+    width: 600px;
+    height: 270px;
+    margin: auto;
+    margin-bottom: 50px;
+    
+}
+
+#uid{
+    width: 600px;
+    height: 90px;
+    box-sizing: border-box;
+    border: 3px solid lightgray;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+#pwd{
+    width: 600px;
+    height: 90px;
+    box-sizing: border-box;
+    border-left: 3px solid lightgray;
+    border-right: 3px solid lightgray;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.login_option{
+    width: 600px;
+    height: 90px;
+    box-sizing: border-box;
+    border: 3px solid lightgray;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #eee;
+    font-size: 20px;
+    padding: 0 20px;
+    line-height: 90px;
+}
+
+.maintain{
+    float: left;
+}
+
+.maintain input{
+    width: 33px;
+    height: 33px;
+    margin-right: 20px;
+}
+
+/*
+.secure{
+    float: right;
+}
+
+.secure input{
+    background: url(../images/ip_button.png);
+}
+*/
+
+/* find */
+.find_wrap{
+    width: 300px;
+    height: 30px;
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.find_id{
+    width: 130px;
+    float: left;
+    text-align: right;
+}
+
+.find_id::after{
+    content:"|";
+    margin-left: 25px;
+}
+
+.find_pwd{
+    width: 130px;
+    float: right;
+}
+
+.err_txt{
+    height: 20px;
+    margin: 20px;
+    font-size:16px;
+    color:red
+}
+
+.button_login{
+    width: 600px;
+    height: 90px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: #00e064;
+    border: 3px solid lightgray;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    line-height: 90px;
+    font-size: 20px;
+}
+
+.button_join{
+    width: 600px;
+    height: 90px;
+    margin: auto;
+    margin-bottom: 30px;
+    border: 3px solid lightgray;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 90px;
+    font-size: 20px;
+}
